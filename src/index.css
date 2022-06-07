@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gutter.gutter-horizontal {
+  cursor: col-resize;
+  width: 15px !important;
+  border-right: 1px solid #333333;
+}
+
+.gutter.gutter-vertical {
+  cursor: row-resize;
+ 
+}
+
+.gutter.gutter-horizontal:hover, .gutter.gutter-vertical:hover{
+  background-color: #333333;
+}
