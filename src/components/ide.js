@@ -113,12 +113,6 @@ const IDE = () => {
     [dispatch]
   );
 
-  useEffect(() => {
-    document.onkeyup = function () {
-      console.log("here");
-    };
-  }, []);
-
   return (
     <div>
       <VerticalSplitLayout sizes={[50, 50]}>
