@@ -14,5 +14,11 @@ A web-based application capable of running SQL queries and displaying the result
 <li>
  React,Redux&Redux toolkit - for statemanagement and UI Library
  </li>
+
+ </ul>
  
-  </ul>
+ # Page Load Time
+ 1.31s
+ 
+ ## How I got the Page Load Time?
+Chrome -> Right Click -> Inspect Element -> Network Tab. When you load a page there is a nice report for the timeline of the page showing the actual page load time, css, js etc. load times. 
