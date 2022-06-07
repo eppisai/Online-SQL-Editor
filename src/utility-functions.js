@@ -13,7 +13,7 @@ export const runCode = async (content, dispatch) => {
     headers: {
       "content-type": "application/json",
       "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
-      "x-rapidapi-key": process.env.JUDGE_0,
+      "x-rapidapi-key": "fa52c00c5cmsh5c9f4f420642014p1c5038jsn69fe440179bd",
     },
     data: { language_id: 82, source_code: `${btoa(content)}` },
   };
