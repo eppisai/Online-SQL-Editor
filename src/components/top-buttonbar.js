@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import { setName } from "../redux/file-slice";
-import { downloadFile, runCode } from "./utility-functions";
+import { downloadFile, runCode } from "../utility-functions";
 
 const ActionButtonBar = () => {
   const file = useSelector((state) => state.file);

@@ -2,7 +2,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import { setOutput } from "../redux/file-slice";
+import { setOutput } from "./redux/file-slice";
 
 export const runCode = async (content, dispatch) => {
   const id = toast.loading("Creating Submission..");

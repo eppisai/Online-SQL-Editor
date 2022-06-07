@@ -3,7 +3,6 @@ import "react-toastify/dist/ReactToastify.css";
 import React from "react";
 import { ToastContainer } from "react-toastify";
 
-import Footer from "./components/footer";
 import IDE from "./components/ide";
 import ActionButtonBar from "./components/top-buttonbar";
 
@@ -18,8 +17,6 @@ const App = () => {
       />
       <ActionButtonBar />
       <IDE />
-      <div />
-      <Footer />
     </div>
   );
 };
