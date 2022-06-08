@@ -16,3 +16,7 @@
 .gutter.gutter-horizontal:hover, .gutter.gutter-vertical:hover{
   background-color: #333333;
 }
+
+body{
+  overflow:hidden
+}
